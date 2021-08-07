@@ -1,25 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Container from './Layout/Container';
+import Dashboard from './Dashboard';
+import CounterExample from './Count';
+import RestList from './ProductCatalog/ListRest';
+import ListEmployeeComponent from './HR/Employees';
+import ListCustomerComponent from './CRM/Customers';
+import ListOrderComponent from './OrderProcessing/Orders';
 
+
+//<Dashboard></Dashboard>
+//<CounterExample></CounterExample>
+//<Container></Container>
+ //<RestList></RestList>
+ //<ListEmployeeComponent></ListEmployeeComponent>
+ //<ListCustomerComponent></ListCustomerComponent>
+//<ListOrderComponent></ListOrderComponent>
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div className="App">
+          <Container></Container>
+       </div>
   );
 }
-
 export default App;

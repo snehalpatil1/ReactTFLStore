@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//React Virtual DOM (Document Object Model)
 ReactDOM.render(
   <React.StrictMode>
     <App />
